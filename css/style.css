@@ -1,18 +1,62 @@
-/* Move down content because we have a fixed navbar that is 3.5rem tall */
 body {
-  padding-top: 3.5rem;
-}
-.bd-placeholder-img {
-  font-size: 1.125rem;
-  text-anchor: middle;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+  margin: 0;
+  width 100%;
+  background-image: url(../img/back1.jpg);
 }
 
-@media (min-width: 768px) {
-  .bd-placeholder-img-lg {
-    font-size: 3.5rem;
-  }
+
+#header { 
+border: solid 1px #000000;
+height: 170px;
+ width: 100%;
+  background-color: #8e8e8e;
+  color: #000000;
+  text-align: center;
+  font-size: 30px;
+  padding: 0px;
+  position: fixed;
+  margin-top: -20px;
+
 }
+img.rounded-corners {
+  border-radius: 50%;
+}
+
+
+table {
+	margin-top: 100px;
+	text-align: center;
+	margin-left: 20px;
+}
+
+tr:nth-child(even) {background: #CCC}
+tr:nth-child(odd) {background: #FFF}
+
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.flex-item {
+  background: #7997A1;
+  padding: 5px;
+  width: 600px;
+  height: 400px;
+  margin-top: 300px;
+  
+  line-height: 15px;
+  color: #000000;
+  font-size: 1em;
+  text-align: center;
+}
+
